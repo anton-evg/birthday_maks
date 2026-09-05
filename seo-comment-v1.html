@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO-комментарии | День рождения</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/with-comments.css">
+  <link rel="stylesheet" href="styles/page-v1.css">
+</head>
+<body class="prototype--with-comments">
+  <main class="prototype-page">
+    <div class="block-row">
+      <div class="prototype-block">
+        <section class="seo-page">
+          <div class="container seo-stack">
+            <div class="section-head"><div class="section-head__copy"><h1>SEO-карта страницы «День рождения»</h1><p>Служебные данные для разработки и переноса в Figma.</p></div></div>
+
+            <article class="seo-card">
+              <h2>Адрес, интент и метаданные</h2>
+              <p><strong>Адрес:</strong> https://ecofilin.ru/birthday/</p>
+              <p><strong>Интент:</strong> коммерческий. Посетитель выбирает место для дня рождения и оставляет заявку.</p>
+              <p><strong>Title:</strong> День рождения в панорамном домике среди леса | Экоферма Филин</p>
+              <p><strong>H1:</strong> День рождения в панорамном домике среди леса</p>
+              <p><strong>Description:</strong> Отметьте день рождения в Экоферме Филин: панорамный домик, личная SPA-зона, мангал и отдых в лесу. Именинникам скидка 10% за 3 дня до и после даты рождения.</p>
+              <p><strong>Canonical:</strong> https://ecofilin.ru/birthday/</p>
+              <p>Не использовать в метаданных формулировку «в Подмосковье»: Экоферма расположена в Ярославской области.</p>
+            </article>
+
+            <article class="seo-card">
+              <h2>Кластер запросов</h2>
+              <table><thead><tr><th>Уровень</th><th>Запрос или сущность</th><th>Роль</th></tr></thead><tbody>
+                <tr><td>Основной</td><td>день рождения в панорамном домике</td><td>Центральное предложение.</td></tr>
+                <tr><td>Связанный</td><td>отметить день рождения в домике с купелью</td><td>Первый экран, выбор домика, FAQ.</td></tr>
+                <tr><td>Связанный</td><td>день рождения в глэмпинге</td><td>Первый экран, отзывы, форма.</td></tr>
+                <tr><td>Связанный</td><td>снять домик на день рождения в лесу</td><td>Карточки домиков и форма.</td></tr>
+                <tr><td>Уточняющий</td><td>скидка имениннику на проживание</td><td>Первый экран, FAQ, форма.</td></tr>
+                <tr><td>Уточняющий</td><td>домик для семьи, пары, компании</td><td>Карточки домиков.</td></tr>
+              </tbody></table>
+            </article>
+
+            <article class="seo-card">
+              <h2>Перелинковка и каннибализация</h2>
+              <table><thead><tr><th>Страница</th><th>Роль</th><th>Решение</th></tr></thead><tbody>
+                <tr><td>/</td><td>Все сценарии отдыха</td><td>Карточка «День рождения» ведет на /birthday/ без полного раскрытия сценария.</td></tr>
+                <tr><td>/birthday/</td><td>День рождения</td><td>Владеет кластером запросов о праздновании дня рождения.</td></tr>
+                <tr><td>/houses/</td><td>Каталог домиков</td><td>Получает ссылку «Смотреть все домики».</td></tr>
+                <tr><td>/things-to-do/</td><td>Активности</td><td>Получает ссылку «Посмотреть все занятия».</td></tr>
+                <tr><td>Страница романтического отдыха</td><td>Романтический сценарий</td><td>Оставляет день рождения вторичным упоминанием.</td></tr>
+              </tbody></table>
+            </article>
+
+            <article class="seo-card">
+              <h2>Требования к HTML</h2>
+              <ul>
+                <li>Один видимый H1.</li>
+                <li>Основные блоки размечены H2, вопросы FAQ — H3.</li>
+                <li>Title, description, canonical и JSON-LD размещены в head.</li>
+                <li>Ссылки на /houses/ и /things-to-do/ являются обычными индексируемыми ссылками.</li>
+                <li>FAQ в JSON-LD совпадает с видимым FAQ.</li>
+                <li>Popup, cookie, состояния формы и аналитические комментарии не размечаются.</li>
+                <li>Не добавлять Offer, price, availability, AggregateRating, цены, рейтинг и подарки.</li>
+              </ul>
+            </article>
+
+            <article class="seo-card">
+              <h2>JSON-LD: BreadcrumbList и Service</h2>
+              <pre><code>{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ecofilin.ru/birthday/#breadcrumbs",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://ecofilin.ru/"},
+        {"@type": "ListItem", "position": 2, "name": "День рождения", "item": "https://ecofilin.ru/birthday/"}
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecofilin.ru/birthday/#service",
+      "name": "Отдых на день рождения в Экоферме Филин",
+      "url": "https://ecofilin.ru/birthday/",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://ecofilin.ru/#organization",
+        "name": "Филин Экоферма",
+        "url": "https://ecofilin.ru/"
+      }
+    }
+  ]
+}</code></pre>
+            </article>
+
+            <article class="seo-card">
+              <h2>JSON-LD: FAQPage</h2>
+              <p>Разметка добавляется только при наличии всех семи видимых вопросов. Готовый полный блок встроен в `index-v1.html`; тексты вопросов и ответов совпадают с разделом FAQ.</p>
+              <pre><code>{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://ecofilin.ru/birthday/#faq",
+  "mainEntity": [
+    {"@type": "Question", "name": "Как действует скидка именинника?"},
+    {"@type": "Question", "name": "Что есть в домике для праздничного ужина?"},
+    {"@type": "Question", "name": "Есть ли личная SPA-зона?"},
+    {"@type": "Question", "name": "Что входит в проживание?"},
+    {"@type": "Question", "name": "Во сколько заезд и выезд?"},
+    {"@type": "Question", "name": "Можно ли провести шумную вечеринку?"},
+    {"@type": "Question", "name": "Как оставить заявку на день рождения?"}
+  ]
+}</code></pre>
+            </article>
+          </div>
+        </section>
+      </div>
+      <div class="comment-spacer" aria-hidden="true"></div>
+    </div>
+  </main>
+  <script src="styles/with-comments-height.js" defer></script>
+</body>
+</html>
