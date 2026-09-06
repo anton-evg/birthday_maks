@@ -48,6 +48,30 @@
   </script>
 </head>
 <body class="prototype--with-comments">
+  <div class="block-row header-row">
+    <div class="prototype-block">
+      <header class="site-header">
+        <div class="site-header__inner header-inner container">
+          <a class="brand" href="" aria-label="Филин Экоферма">ФИЛИН ЭКОФЕРМА</a>
+          <nav class="site-nav" aria-label="Основная навигация">
+            <a href="">Домики</a>
+            <a href="">Чем заняться?</a>
+            <a href="">Галерея</a>
+            <a href="">Отзывы</a>
+            <a href="">FAQ</a>
+          </nav>
+          <div class="header-channels">
+            <a class="header-channel" href="">Telegram</a>
+            <a class="header-channel" href="">MAX</a>
+          </div>
+          <a class="header-phone" href="">+7 495 182-00-82</a>
+          <a class="button button--primary button--lg" href="">Обратный звонок</a>
+        </div>
+      </header>
+    </div>
+    <div class="comment-spacer" aria-hidden="true"></div>
+  </div>
+
   <main class="prototype-page">
     <div class="block-row">
       <div class="prototype-block">
@@ -55,7 +79,7 @@
           <div class="container hero__layout">
             <div class="hero__content">
               <h1 class="tagged" data-tag="&lt;h1&gt;">День рождения в панорамном домике среди леса</h1>
-              <p class="hero-title tagged" data-tag="&lt;p&gt;">День рождения, который хочется запомнить</p>
+              <span class="hero-title tagged" data-tag="&lt;span&gt;">День рождения, который хочется запомнить</span>
               <p class="hero__lead tagged" data-tag="&lt;p&gt;">Выберите домик с личной SPA-зоной, проведите вечер с близкими и останьтесь на ночь в лесу.</p>
               <p class="hero__offer tagged" data-tag="&lt;p&gt;">Именинникам скидка 10% за 3 дня до даты рождения, в день и 3 дня после.</p>
               <a class="button button--primary-light button--lg" href="">Отметить день рождения<img class="button__icon" src="assets/icons/arrow-default.svg" alt=""></a>
@@ -69,20 +93,36 @@
 
     <div class="block-row">
       <div class="prototype-block">
+        <section class="format-section" id="formats">
+          <div class="container">
+            <div class="section-heading"><div><h2><span class="heading-level">&lt;h2&gt;</span> Выберите формат дня рождения <span class="heading-level">&lt;/h2&gt;</span></h2><p>Проведите этот день вдвоем, соберите семью или пригласите друзей. У каждого формата своя атмосфера.</p></div></div>
+            <div class="format-grid">
+              <article class="card format-card"><figure class="media-placeholder media-placeholder--image"><div class="media-placeholder__body"><img class="media-placeholder__icon" src="assets/icons/image.svg" alt=""><p class="media-placeholder__caption">Реальная фотография дня рождения вдвоем</p></div></figure><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>День рождения вдвоем</h3><p>Уединенный вечер, личная SPA-зона и время друг для друга среди леса.</p></div></article>
+              <article class="card format-card"><figure class="media-placeholder media-placeholder--image"><div class="media-placeholder__body"><img class="media-placeholder__icon" src="assets/icons/image.svg" alt=""><p class="media-placeholder__caption">Реальная фотография семейного дня рождения</p></div></figure><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>День рождения с семьей</h3><p>Соберите близких за праздничным столом, отдохните на природе и останьтесь на ночь в уютном домике.</p></div></article>
+              <article class="card format-card"><figure class="media-placeholder media-placeholder--image"><div class="media-placeholder__body"><img class="media-placeholder__icon" src="assets/icons/image.svg" alt=""><p class="media-placeholder__caption">Реальная фотография дня рождения с друзьями</p></div></figure><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>День рождения с друзьями</h3><p>Камерный праздник с ужином на мангале, отдыхом в SPA-зоне и прогулками по лесу.</p></div></article>
+            </div>
+          </div>
+        </section>
+      </div>
+      <aside class="block-comment"><div class="block-comment__inner"><p class="comment-kicker">Комментарий (обоснование)</p><p class="comment-text">Блок помогает сначала выбрать характер праздника, не дублируя выбор размещения. Три карточки отражают разные ситуации: праздник вдвоем, с семьей или с друзьями. Кнопки и перечень домиков не используются, потому что следующий блок показывает весь каталог с плашками для пары, семьи и компании.</p></div></aside>
+    </div>
+
+    <div class="block-row">
+      <div class="prototype-block">
         <section class="catalog-section" id="cabins">
           <div class="container">
             <div class="section-heading"><div><h2><span class="heading-level">&lt;h2&gt;</span> Выберите домик для своего праздника <span class="heading-level">&lt;/h2&gt;</span></h2><p>Для вечера вдвоем, отдыха с семьей или камерного праздника с близкими.</p></div></div>
             <div class="cards cards--2">
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для компании</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Патио</h3><p>Просторный дом для компании, длинного ужина и тишины среди берез.</p><div class="price-line"><span class="price-old">28 000 ₽ в будни · 32 000 ₽ в выходные</span><span class="price-new">24 000 ₽ в будни · 28 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Шалаш</h3><p>Стильный домик для романтического дня рождения вдвоем.</p><div class="price-line"><span class="price-old">19 000 ₽ в будни · 22 000 ₽ в выходные</span><span class="price-new">16 000 ₽ в будни · 18 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для семьи</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Двухэтажный куб</h3><p>Уединенный панорамный домик в сердце леса для семейного праздника.</p><div class="price-line"><span class="price-old">26 000 ₽ в будни · 30 000 ₽ в выходные</span><span class="price-new">22 000 ₽ в будни · 26 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для семьи</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Сфера MAX</h3><p>Панорамное остекление с видом на лес, небо и звезды.</p><div class="price-line"><span class="price-old">20 000 ₽ в будни · 23 000 ₽ в выходные</span><span class="price-new">17 000 ₽ в будни · 19 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Лаундж</h3><p>Домик с панорамными стенами для красивого и спокойного праздника.</p><div class="price-line"><span class="price-old">17 000 ₽ в будни · 20 000 ₽ в выходные</span><span class="price-new">14 000 ₽ в будни · 16 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Сфера</h3><p>Круглогодичный панорамный домик с видом на лес и звездное небо.</p><div class="price-line"><span class="price-old">19 000 ₽ в будни · 22 000 ₽ в выходные</span><span class="price-new">16 000 ₽ в будни · 18 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Куб</h3><p>Стильный панорамный домик с прекрасным видом и уединенным расположением.</p><div class="price-line"><span class="price-old">17 000 ₽ в будни · 19 000 ₽ в выходные</span><span class="price-new">14 000 ₽ в будни · 16 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Бочка</h3><p>Уютный небольшой домик в лесной чаще с большим панорамным окном.</p><div class="price-line"><span class="price-old">12 000 ₽ в будни · 14 000 ₽ в выходные</span><span class="price-new">10 000 ₽ в будни · 12 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Бохо</h3><p>Новый домик в стиле бохо для атмосферного дня рождения среди леса.</p><div class="price-line"><span class="price-new">Цена уточняется</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
-              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Воздух</h3><p>Новый панорамный домик для легкого праздника и перезагрузки на природе.</p><div class="price-line"><span class="price-new">Цена уточняется</span></div><a class="button button--primary button--sm" href="">Выбрать этот домик</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для компании</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Патио</h3><p>Просторный дом для компании, длинного ужина и тишины среди берез.</p><div class="price-line"><span class="price-old">28 000 ₽ в будни · 32 000 ₽ в выходные</span><span class="price-new">24 000 ₽ в будни · 28 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Шалаш</h3><p>Стильный домик для романтического дня рождения вдвоем.</p><div class="price-line"><span class="price-old">19 000 ₽ в будни · 22 000 ₽ в выходные</span><span class="price-new">16 000 ₽ в будни · 18 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для семьи</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Двухэтажный куб</h3><p>Уединенный панорамный домик в сердце леса для семейного праздника.</p><div class="price-line"><span class="price-old">26 000 ₽ в будни · 30 000 ₽ в выходные</span><span class="price-new">22 000 ₽ в будни · 26 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для семьи</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Сфера MAX</h3><p>Панорамное остекление с видом на лес, небо и звезды.</p><div class="price-line"><span class="price-old">20 000 ₽ в будни · 23 000 ₽ в выходные</span><span class="price-new">17 000 ₽ в будни · 19 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Лаундж</h3><p>Домик с панорамными стенами для красивого и спокойного праздника.</p><div class="price-line"><span class="price-old">17 000 ₽ в будни · 20 000 ₽ в выходные</span><span class="price-new">14 000 ₽ в будни · 16 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Сфера</h3><p>Круглогодичный панорамный домик с видом на лес и звездное небо.</p><div class="price-line"><span class="price-old">19 000 ₽ в будни · 22 000 ₽ в выходные</span><span class="price-new">16 000 ₽ в будни · 18 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Куб</h3><p>Стильный панорамный домик с прекрасным видом и уединенным расположением.</p><div class="price-line"><span class="price-old">17 000 ₽ в будни · 19 000 ₽ в выходные</span><span class="price-new">14 000 ₽ в будни · 16 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Бочка</h3><p>Уютный небольшой домик в лесной чаще с большим панорамным окном.</p><div class="price-line"><span class="price-old">12 000 ₽ в будни · 14 000 ₽ в выходные</span><span class="price-new">10 000 ₽ в будни · 12 000 ₽ в выходные</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Бохо</h3><p>Новый домик в стиле бохо для атмосферного дня рождения среди леса.</p><div class="price-line"><span class="price-new">Цена уточняется</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
+              <article class="card cabin-card"><div class="media-placeholder"><img src="assets/icons/icon-square-img.svg" alt=""></div><div class="cabin-badges"><span class="cabin-badge">Для пары</span></div><div class="card-body"><h3><span class="heading-level heading-level--card">&lt;h3&gt;</span>Воздух</h3><p>Новый панорамный домик для легкого праздника и перезагрузки на природе.</p><div class="price-line"><span class="price-new">Цена уточняется</span></div><a class="button button--primary button--sm" href="">Выбрать даты</a></div></article>
             </div>
             <p class="price-note">Стоимость зависит от выбранных дат и дополнительных услуг. Актуальную доступность и итоговую цену уточнит администратор после заявки.</p>
           </div>
@@ -142,6 +182,55 @@
     </div>
 
   </main>
+
+  <div class="block-row footer-row">
+    <div class="prototype-block">
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <div class="footer-brand">ФИЛИН ЭКОФЕРМА</div>
+            <p>Филин Экоферма — загородный глэмпинг с комфортными условиями и множеством активностей</p>
+            <p class="footer-legal">ИП ВЫХОДЕЦ ИРИНА ВАЛЕРЬЕВНА<br>ИНН 507461487833</p>
+          </div>
+          <div>
+            <h3>Навигация</h3>
+            <a href="">Домики</a>
+            <a href="">Чем заняться?</a>
+            <a href="">Блог</a>
+            <a href="">Галерея</a>
+            <a href="">FAQ</a>
+          </div>
+          <div>
+            <div class="footer-contact-links">
+              <a class="footer-contact-link" href="" aria-label="Телефон: +7 495 182-00-82"><img src="assets/icons/footer-phone.svg" alt=""></a>
+              <a class="footer-contact-link" href="" aria-label="Telegram: @filinecoferm"><img src="assets/icons/footer-telegram.svg" alt=""></a>
+              <a class="footer-contact-link" href="" aria-label="MAX"><img src="assets/icons/footer-max.svg" alt=""></a>
+              <a class="footer-contact-link" href="" aria-label="Email: info@ecofilin.ru"><img src="assets/icons/footer-email.svg" alt=""></a>
+              <a class="footer-contact-link" href="" aria-label="ВКонтакте"><img src="assets/icons/footer-vk.svg" alt=""></a>
+              <a class="footer-contact-link" href="" aria-label="Instagram"><img src="assets/icons/footer-instagram.svg" alt=""></a>
+            </div>
+            <h3>Документы</h3>
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Договор-оферта</a>
+          </div>
+          <div>
+            <h3>Адрес и карта</h3>
+            <p>Ярославская область, Переславский район, деревня Ершово, Экоферма Филин.</p>
+            <a href="">Открыть маршрут на Яндекс Картах</a>
+            <div class="media-placeholder footer-map">Здесь будет Яндекс Карта с точкой «Филин Экоферма»</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <aside class="block-comment">
+      <div class="block-comment__inner">
+        <p class="comment-kicker">Комментарий (обоснование)</p>
+        <p class="comment-text">Футер собирает информацию, которая нужна пользователю на завершающем этапе: куда ехать, как связаться с администратором, где посмотреть маршрут и какие документы регулируют бронирование. Он также остается резервной точкой возврата к основным разделам, если пользователь не готов принять решение сразу.</p>
+        <p class="comment-text">Основные способы связи выделены отдельно от социальных сетей: телефон, Telegram и MAX предназначены для обращения по бронированию, а VK и Instagram — для знакомства с контентом и жизнью экофермы. Полный адрес находится здесь, поэтому его не нужно перегружать в первом экране.</p>
+      </div>
+    </aside>
+  </div>
+
   <script src="styles/with-comments-height.js" defer></script>
 </body>
 </html>
