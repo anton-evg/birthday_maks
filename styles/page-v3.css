@@ -779,22 +779,6 @@
   font-size: 12px;
 }
 
-.celebration-gallery__more {
-  position: relative;
-}
-
-.celebration-gallery__count {
-  position: absolute;
-  right: 12px;
-  bottom: 12px;
-  padding: 7px 10px;
-  border-radius: 999px;
-  background: var(--color-primary-dark);
-  color: var(--color-white);
-  font-size: 12px;
-  font-weight: 700;
-}
-
 .card {
   display: flex;
   min-inline-size: 0;
@@ -1037,13 +1021,13 @@
 }
 
 .faq-section .faq-item h3 {
-  margin: 0;
+  margin: 12px 0 0;
   padding: 0;
   font-size: 17px;
 }
 
 .faq-section .faq-item p {
-  margin: 9px 0 0;
+  margin: 22px 0 0;
   font-size: 14px;
   line-height: 1.6;
 }
